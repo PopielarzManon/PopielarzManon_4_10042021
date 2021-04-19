@@ -137,6 +137,9 @@ a:hover {
 .d-bloc h6 a,
 .d-bloc p a {
     color: rgba(255, 255, 255, .6);
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
 }
 
 .d-bloc .a-btn:hover,
@@ -355,7 +358,7 @@ a:hover {
 }
 
 .navbar-toggle:hover {
-    background: transparent!important;
+    background: transparent;
 }
 
 .navbar-toggle .icon-bar {
@@ -416,7 +419,7 @@ a:hover {
 }
 
 .nav > li > .dropdown a {
-    background: none!important;
+    background: none;
     display: block;
     padding: 14px 15px;
 }
@@ -443,7 +446,7 @@ nav .caret {
     border-top-color: transparent;
     border-right-color: transparent;
     border-bottom-color: transparent;
-    margin: 6px -5px 0 0!important;
+    margin: 6px -5px 0 0;
     float: right;
 }
 
@@ -488,11 +491,11 @@ button {
 }
 
 .icon-md {
-    font-size: 30px!important;
+    font-size: 30px;
 }
 
 .icon-lg {
-    font-size: 70px!important;
+    font-size: 70px;
 }
 
 .sm-shadow {
@@ -662,13 +665,11 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 700;
-    color: #575757!important;
+    color: #575757;
     
 }
 
-.container {
-    max-width: 1000px;
-}
+
 
 .hero-bloc-text {
     font-size: 38px;
@@ -701,7 +702,7 @@ a {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF!important;
+    color: #FFFFFF;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -719,11 +720,11 @@ h2 {
 }
 
 /*-------------------------IZEUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU--------*/
-#tittles{
+.tittles{
     font-size: 25px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #333333!important;
+    color: #333333;
 
 }
 .temoignage{
@@ -742,7 +743,7 @@ h2 {
 }
 .desc{
     font-size: 25px;
-    color: #737373!important;
+    color: #737373;
     font-weight: bold;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.15);
 }
@@ -755,20 +756,26 @@ h2 {
 }
 
 h1 {
-    color: #333333!important;
+    color: #333333;
 }
 
 h4 {
-    color: #333333!important;
+    color: #333333;
 }
 
 .icons {
     margin-bottom: 14px;
     margin-top: 24px;
 }
+.social{
+    font-size: 40px;
+}
+.social p{
+    font-size: 15px;
+}
 
 .white {
-    color: #FFFFFF!important;
+    color: #FFFFFF;
 }
 
 .portfolio-thumb {
@@ -791,7 +798,7 @@ h4 {
 
 .bold-link {
     font-weight: 900;
-    text-decoration: underline!important;
+    text-decoration: underline;
 }
 
 .bgc-white {
@@ -807,48 +814,46 @@ h4 {
 }
 
 .tc-white {
-    color: #ffcbb3!important;
+    color: #ffcbb3;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #FFFFFF;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #ffbd9f!important;
-    color: #FFFFFF!important;
+    background: #ffbd9f;
+    color: #FFFFFF;
     transform: scale(1.1);
 }
 
 .ltc-white {
-    color: #FFFFFF!important;
+    color: #FFFFFF;
 }
 
 .ltc-white:hover {
-    color: #cccccc!important;
+    color: #cccccc
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: #F3976C;
 }
 
 .ltc-atomic-tangerine:hover {
-    color: #c27956!important;
+    color: #c27956;
 }
 
 .icon-dark-slate-blue {
-    color: #364577!important;
-    border-color: #364577!important;
+    color: #364577;
+    border-color: #364577;
 }
 
 .bg-dots-bg {
     background-image: url("img/dots-bg.png");
 }
 
-/*.bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
-}*/
+
 
 .bg-banniere {
     background-image: url("img/la-chouette-agence-banniere.jpg");
@@ -936,8 +941,8 @@ h4 {
     h6,
     p,
     #disqus_thread {
-        padding-left: 10px!important;
-        padding-right: 10px!important;
+        padding-left: 10px;
+        padding-right: 10px;
     }
     .b-parallax {
         background-attachment: scroll;
@@ -970,7 +975,7 @@ h4 {
     }
     .dropdown .dropdown a .caret {
         float: none;
-        margin: 5px 0 0 10px!important;
+        margin: 5px 0 0 10px;
         border: 4px solid black;
         border-bottom-color: transparent;
         border-right-color: transparent;

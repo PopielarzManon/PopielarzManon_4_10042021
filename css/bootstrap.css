@@ -2070,6 +2070,11 @@ pre code {
     min-height: 1px;
     padding-right: 50px;
     padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .col-xs-1,
