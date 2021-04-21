@@ -826,10 +826,10 @@ h4 {
     margin-bottom: 44px;
     margin-top: 50px;
 }
-a.social:nth-child(5) > p:nth-child(1) {
+a.social:nth-child(4) > p:nth-child(1) {
     color: #ffffffc9;
    }
-a.social:nth-child(5) > p:nth-child(1):hover {
+a.social:nth-child(4) > p:nth-child(1):hover {
     color: #ffffff;
    }
 
