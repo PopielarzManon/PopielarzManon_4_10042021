@@ -102,12 +102,12 @@ a:hover {
 }
 
 .d-bloc {
-    color: rgba(255, 255, 255, .7);
+    color: rgb(255, 255, 255);
     text-align: center;
 }
 
 .d-bloc button:hover {
-    color: rgba(255, 255, 255, .9);
+    color: rgb(255, 188, 161);
 }
 
 .d-bloc .icon-round,
@@ -826,6 +826,12 @@ h4 {
     margin-bottom: 44px;
     margin-top: 50px;
 }
+a.social:nth-child(5) > p:nth-child(1) {
+    color: #ffffffc9;
+   }
+a.social:nth-child(5) > p:nth-child(1):hover {
+    color: #ffffff;
+   }
 
 .avatar {
     box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
@@ -854,7 +860,7 @@ h4 {
 }
 
 .tc-white {
-    color: #ffcbb3;
+    color: #fff0e9;
     
 }
 
