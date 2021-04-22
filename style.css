@@ -741,7 +741,12 @@ label{
     margin-bottom: 10px;
 }
 
-   
+footer p{
+    text-shadow: -3px 1px 11px rgba(0,0,0,0.78);
+}
+.social p{
+    text-shadow: none;
+}
 
 /*-------------------------IZEUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU--------*/
 a.bloc-button {
@@ -861,19 +866,22 @@ a.social:nth-child(4) > p:nth-child(1):hover {
 
 .tc-white {
     color: #fff0e9;
+    text-shadow: -3px 1px 11px rgba(0,0,0,0.78);
     
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    text-shadow: black;
+    
     color: #FFFFFF;
+    text-shadow: 3px 5px 13px rgba(107,46,29,0.67);
 }
 
 
 .btn-atomic-tangerine:hover {
     background: #ffbd9f;
     color: #FFFFFF;
+    text-shadow: 3px 5px 13px rgba(107,46,29,0.67);
     transform: scale(1.1);
 }
 
